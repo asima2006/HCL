@@ -31,9 +31,9 @@ function Login() {
     
     if (result.success) {
       // Navigate based on role
-      if (isPatient) {
+      if (formData.role === 'patient' || isPatient) {
         navigate('/patient/dashboard');
-      } else if (isDoctor) {
+      } else if (formData.role === 'doctor' || isDoctor) {
         navigate('/doctor/dashboard');
       } else {
         navigate('/');
