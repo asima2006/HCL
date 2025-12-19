@@ -156,24 +156,24 @@ function Register() {
                 />
               </div>
 
-              <div className="form-group checkbox-group">
-                <label>
-                  <input
-                    type="checkbox"
-                    name="consentGiven"
-                    checked={formData.consentGiven}
-                    onChange={handleChange}
-                  />
-                  <span>
-                    I consent to the collection and use of my health data for wellness tracking and 
-                    appointment management purposes. I understand my data will be handled in compliance 
-                    with HIPAA regulations.
-                  </span>
-                </label>
-              </div>
             </>
           )}
 
+          <div className="form-group checkbox-group">
+            <label>
+              <input
+                type="checkbox"
+                name="consentGiven"
+                checked={formData.consentGiven}
+                onChange={handleChange}
+              />
+              <span>
+                I consent to the collection and use of my health data for wellness tracking and 
+                appointment management purposes. I understand my data will be handled in compliance 
+                with HIPAA regulations.
+              </span>
+            </label>
+          </div>
           <button type="submit" className="btn-primary" disabled={loading}>
             {loading ? 'Creating account...' : 'Register'}
           </button>
