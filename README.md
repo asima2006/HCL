@@ -1,6 +1,6 @@
 # Healthcare Wellness Portal
 
-A MERN stack application for patients and healthcare providers to manage wellness goals, appointments, and preventive care compliance.
+A MERN stack healthcare wellness application that enables patients and healthcare providers to manage wellness goals, appointments, and preventive care. Patients can track personal health goals and book appointments, while providers monitor progress and ensure compliance with preventive care guidelines. The system supports role-based access and focuses on improving patient engagement and proactive healthcare management.
 
 ## Tech Stack
 
